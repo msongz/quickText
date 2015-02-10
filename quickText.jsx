@@ -23,7 +23,7 @@ qT_Data.addText = {
     cn: "添加字幕/空标记"
 };
 qT_Data.keepWord = {
-    en: "keep text",
+    en: "retain text",
     cn: "保留文字"
 };
 qT_Data.addTlayer = {
@@ -31,7 +31,7 @@ qT_Data.addTlayer = {
     cn: "添加字层"
 };
 qT_Data.geText = {
-    en: "get text",
+    en: "absorb text",
     cn: "取字"
 };
 qT_Data.scriptTitle = {
@@ -55,7 +55,7 @@ qT_Data.error = {
     cn: "错误"
 }
 qT_Data.about = {
-    en: "thank you for using quicktext ae script. \n " + "\n" + "contact me: weibo.com/songz",
+    en: "thank you for using quicktext. \n " + "\n" + "contact me: weibo.com/songz",
     cn: "谢谢使用\n" + "\n" + "联系我 weibo.com/songz"
 };
 qT_Data.nonSelect = {
