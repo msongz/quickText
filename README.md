@@ -25,7 +25,7 @@
 
     then
 
-  - run it from the <kbd>file</kbd>><kbd>scripts</kbd>><kbd>run script file</kbd>><kbd>stopMotion.jsx</kbd> or <kbd>window</kbd>>choose <kbd>stopMotion.jsx</kbd>
+  - run it from the <kbd>file</kbd>><kbd>scripts</kbd>><kbd>run script file</kbd>><kbd>quickText.jsx</kbd> or <kbd>window</kbd>>choose <kbd>quickText.jsx</kbd>
 
 ### Compatibility 
 
