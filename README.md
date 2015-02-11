@@ -7,7 +7,7 @@
 
   - localization `for English and Chinese`
 
-  - text layer the script created only `the functional text layer was applyed some expressions on the property of source text so the other text layers you add would not take effect. `
+  - text layer the script created only `other layer won't take effect since the functional layer has some expressions in the property of source text. `
 
   - markers `all your subtitle were depending on the marker's time.`
 
