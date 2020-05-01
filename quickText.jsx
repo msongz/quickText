@@ -1,6 +1,6 @@
-﻿//quick Text  
-//version 5.01
-//2015 01.02 23:20
+//quick Text  
+//version 5.02
+//2020 05.01
 //copyright (c) songz meng
 
 //global
@@ -95,7 +95,7 @@ wP.aT.onClick = function() {
         app.beginUndoGroup(qT_localize(qT_Data.scriptName));
         aI.layers.addText(qT_localize(qT_Data.layerName));
         aI.layer(1).property("Marker").setValueAtTime(aI.layer(1).startTime, new MarkerValue(""));
-        aI.layer(1).sourceText.expression = "eval('@JSXBIN@ES@2.0@MyBbyBn0ABOAbAn0AHJAnABjzBjOBfXzFjJjOjEjFjYCfEXzKjOjFjBjSjFjTjUiLjFjZDfjzGjNjBjSjLjFjSEfRBjzEjUjJjNjFFfffnfJAnABjzBjUGfXFfEXzDjLjFjZHfjEfRBjBfffnfOAbAn0ABJAnAPjBfyBtACzBhcICzBhNJjFfjGfnnnndAnOAbAn0ABJAnABjBfndBfACIjBfnndBnJAnAjBfJAnABjzBjTKfXzHjDjPjNjNjFjOjULfEXHfjEfRBjBfffnfJAnAjKfACzBheMXzHjOjVjNiLjFjZjTNfjEfnndAn0DzAOByB')"
+        aI.layer(1).sourceText.expression = "marker.numKeys>0&&(n=marker.nearestKey(time).index,t=marker.key(n).time,time-t<0&&n--,n<1&&(n=1),n,s=marker.key(n).comment,s,s);"
         aI.layer(1).position.setValue([aI.width * 0.5, aI.height * 0.9]);
         app.endUndoGroup();
     }
